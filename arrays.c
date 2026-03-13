@@ -184,10 +184,44 @@
 //          if( dup==0){
 //                  printf("%d\t",arr[i]); 
 //              }
-//     }
-
-    
+//     }    
 //     return 0;
+// }
+
+
+// int main(void){
+//     int n,i,j,t,temp;
+//     printf("Enter the number of elements: \n");
+//     scanf("%d",&n);
+//     t=2*n;
+//     int arr1[n],arr2[n],arr3[t];
+//     for (i=0;i<n;i++){
+//         printf("element %d: \n",i);
+//         scanf("%d",&arr1[i]);
+//     }
+//     for (i=0;i<n;i++){
+//         printf("element %d: \n",i);
+//         scanf("%d",&arr2[i]);
+//     }
+//     for (i=0;i<n;i++){
+//         arr3[i]=arr1[i];
+//     }
+//     for (j=0;j<n;j++){
+//         arr3[i]=arr2[j];
+//         i++;
+//     }
+//     for (i=0;i<t;i++){
+//         for (j=0;j<t-1;j++){
+//             if(arr3[j]<arr3[j+1]){
+//                 temp=arr3[j+1];
+//                 arr3[j+1]=arr3[j];
+//                 arr3[j]=temp;
+//             }
+//         }
+//     }
+//     for (i=0;i<t;i++){
+//         printf("%d\t",arr3[i]);
+//     }
 // }
 
 
