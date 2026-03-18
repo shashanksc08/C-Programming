@@ -1,4 +1,5 @@
 // #include <stdio.h>
+// #include <limits.h>
 
 // int main(void){
 //     float prices[3];
@@ -115,7 +116,6 @@
 //     }
 //     return 0;
 // }
-
 
 
 // int main(void){
@@ -327,6 +327,35 @@
 //     for(i=0;i<n;i++){
 //         printf("%d  ",arr[i]);
 //     }
+// }
+
+
+// int sec_largest(int arr[],int n);   
+// int main(void){
+//     int n,i;
+//     printf("Enter the number of elements should be in array\t: ");
+//     scanf("%d",&n);
+//     int arr[n];
+//     for (i=0;i<n;i++){
+//         scanf("%d",&arr[i]);
+//     }
+//     int res=sec_largest(arr,n);
+//     printf("\n second largest is %d",res);
+//     return 0;
+    
+// }
+// int sec_largest(int arr[],int n){
+//     int max = INT_MIN,i;
+//     int s_max= INT_MIN;
+//     for(i=0;i<n;i++){
+//         if (arr[i]>max){
+//             max=arr[i];
+//         }
+//         else if (arr[i]<max && arr[i]>s_max){
+//             s_max=arr[i];
+//         }
+//     }
+//     return s_max;
 // }
 
 
