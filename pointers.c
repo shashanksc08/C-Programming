@@ -8,10 +8,7 @@
 //     printf("Before using pointers \n");
 //     _swap(x,y);
 //     printf("x=%d & y=%d \n",x,y);
-    
-    
 //     printf("------------------------\n");
-    
 //     printf("after using pointers \n");
 //     swap(&x,&y);
 //     printf("x=%d & y=%d \n",x,y);
@@ -61,7 +58,6 @@
     
 //     printf("Address of pointer m is %p\n",&m);
 //     printf("value m is %d\n",m);
-    
 // }
 
 
