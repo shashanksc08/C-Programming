@@ -122,3 +122,25 @@
 
 
 
+// void maxoftwo(int* a,int* b);
+// int main(){
+//     int a,b;
+//     printf("Enter the value of %d:",a );
+//     scanf("%d",&a);
+//     printf("Enter the value of %d:", );
+//     scanf("%d",&b);
+//     maxoftwo(&a,&b);
+//     return 0;
+// }
+
+// void maxoftwo(int* a,int* b){
+//     if (*a>*b){
+//         printf("%d is  bigger",*a);
+//     }
+//     else if(*b>*a){
+//         printf("%d is  bigger",*b);
+//     }
+//     else{
+//         printf("both are equal");
+//     }
+// }
